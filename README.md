@@ -4,7 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  If you have not done so already, please set up an account with Firebase.com.  You will be given specific credentials that will need to be stored in a file called "api-key.ts".  It will look like this:
+export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    projectId: "fir-test-88e40",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
 
 ## Code scaffolding
 
